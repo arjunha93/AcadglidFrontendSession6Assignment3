@@ -1,15 +1,13 @@
-var arr = [12,43,56];
- var max = arr[0];
- for(var i=0;i<arr.length;i++){
-     if(arr[i] > max){
-         max=arr[i];
-     }
- }
- 
- console.log('max : ' + max);
+var sum = 0;
+var number = 1;
+while(number <= 1000 ){
+    sum = sum + number;
+    number++;
+}
+console.log('sum : ' + sum);
 
-var first = 17;
-var second = 84;
-var third = 41;
-
-console.log(first > second ? first : second > third ? second : third);
+var sum1 = 0;
+for(var i = 0;i<= 1000;i++ ){
+    sum1 = sum1 + i;
+}
+console.log('sum1 : ' + sum1);
